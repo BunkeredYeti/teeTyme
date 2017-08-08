@@ -1,0 +1,5 @@
+{"persons": [
+	{"fname":"Frodo",   "lname":"Baggins",   "age":"111"},
+	{"fname":"Gandalf", "lname":"Grey",      "age":"2019"},
+	{"fname":"Bobby",   "lname":"Higginson", "age":"42"}
+]}

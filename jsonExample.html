@@ -1,0 +1,21 @@
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script>
+    $(document).ready( function() {
+	$.get("persons.json", function(json) {
+    $.each(json['persons'], function(i, per) {
+      $("#body").append(
+        '<li>'  + per.fname +
+        ' ' + per.lname + ' ' + per.age + '</li>'
+		);
+		});
+	});
+	});
+
+  </script>
+</head>
+<body>
+  <ol id="body"></ol>
+</body>
+</html>

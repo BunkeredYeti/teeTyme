@@ -1,0 +1,15 @@
+Customers
+--------------------------------------
+-id: int
+-name: String
+-email: String
+-mobile: String
+--------------------------------------
++displayList(): void
++displayCreateScreen(): void
++create(String, String, String): void
++displayReadScreen(int): void
++displayUpdateScreen(int): void
++update(int, String, String, String): void
++displayDeleteScreen(int): void
++delete(int): void
